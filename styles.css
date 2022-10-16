@@ -13,7 +13,7 @@
 }
 
 .container{
-    background-color: white;
+    background-image: linear-gradient(black,white);
     width: 50vw;
     height: 50vh;
     border-radius: 15px;
@@ -28,7 +28,7 @@
 
 }
 .mydate{
-    background-color: antiquewhite;
+    
     width: 80%;
     height: 70%;
     border-radius: 15px;
