@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color:#f1a10b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: white;
+    width: 50vw;
+    height: 50vh;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.boxshadow{
+    box-shadow: 10px 10px 10px rgb(16, 4, 27),-10px -10px 10px rgb(16, 4, 27);;
+
+}
+.mydate{
+    background-color: antiquewhite;
+    width: 80%;
+    height: 70%;
+    border-radius: 15px;
+    display: grid;
+    justify-content: center;
+    place-content: center;
+
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 10px;
+    font-size: xx-large;
+
+}
+.grid{
+    display: grid;
+    justify-content: center;
+    place-items: center;
+    background-color: olive;    
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(58, 58, 2);
+    
+}
+.dateDisplay{    
+    grid-column: 1/span 3;
+}
